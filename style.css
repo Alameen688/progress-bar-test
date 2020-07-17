@@ -1,0 +1,93 @@
+.section {
+  display: block;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 52px;
+  background-color: #FFF;
+}
+
+.progressContainer {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.progress {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  background-color: #ebebeb;
+  border-radius: 14px;
+}
+
+.progress-bar {
+  display: block;
+  float: left;
+  width: 0%;
+  height: 100%;
+  background: #fefefe;
+  box-shadow: inset 0px -1px 2px rgba(0, 0, 0, 0.1);
+  transition: width 0.8s ease-in-out;
+  height: 24px;
+  border-radius: 14px;
+}
+
+
+.progress-label {
+  position: absolute;
+  overflow: hidden;
+  left: 0px;
+  right: 0px;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 0.7em;
+  text-align: center;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.3);
+  line-height: 24px;
+}
+
+.progress-bar-1 { background-color: #b3e172 !important; }
+.progress-bar-2 { background-color: #fc8577 !important; }
+.progress-bar-3 { background-color: #fefefe !important; }
+.progress-bar-4 { background-color: #8cc9f0 !important; }
+.progress-bar-5 { background-color: #fed56c !important; }
+
+
+.progress-stripes {
+  background-image: linear-gradient(
+    -45deg,
+    rgba(255, 255, 255, .125) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, .125) 50%,
+    rgba(255, 255, 255, .125) 75%,
+    transparent 75%,
+    transparent
+  );
+  background-size: 8px 8px;
+}
+
+.btn-finish {
+  color: #FFF;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: baseline;
+  white-space: nowrap;
+  cursor: pointer;
+  outline: none;
+  border-radius: 3px;
+  border: 1px solid #66bb6a;
+  background-color: #66bb6a;
+  height: 30px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 30px;
+  padding: 0px 14px;
+}
+
+.btn-finish:hover {
+  text-decoration: none;
+  border: 1px solid darken(#66bb6a, 3%);
+  background-color: darken(#66bb6a, 3%);
+}
